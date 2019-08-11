@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
 // Connect to Mongodb
-var username = process.env.MONGO_DB_USERNAME || 'someUserName';
-var password = process.env.MONGO_DB_PASSWORD || 'somePassword';
+var username = process.env.MONGO_DB_USERNAME || 'user1GD';
+var password = process.env.MONGO_DB_PASSWORD || 'nLeF5VRCg4EXfPaM';
 
 var host = process.env.MONGODB_SERVICE_HOST || '127.0.0.1';
 var port = process.env.MONGODB_SERVICE_PORT || '27017';
